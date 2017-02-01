@@ -238,9 +238,9 @@ public class ASDatePickerViewModule extends ReactContextBaseJavaModule implement
         if (options.hasKey(HOURS_TEXT) && !options.isNull(HOURS_TEXT)) {
             args.putString(HOURS_TEXT, options.getString(HOURS_TEXT));
         }
-        if (options.hasKey(MINIMUM_DATE) && !options.isNull(MINIMUM_DATE)) {
-            args.putString(MINIMUM_DATE, options.getString(MINIMUM_DATE));
-        }
+        // if (options.hasKey(MINIMUM_DATE) && !options.isNull(MINIMUM_DATE)) {
+        //     args.putString(MINIMUM_DATE, options.getString(MINIMUM_DATE));
+        // }
 
         return args;
     }
